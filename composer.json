@@ -1,0 +1,21 @@
+{
+    "name": "orhanbayraktar/yemek",
+    "description": "Türkiye'de Blunan Online Yemek Siteleri API'leri İçin Yazılmıştır",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "Barış Esen",
+        "email": "orhanbayraktar@gmail.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "Yemek\\": "src"
+        },
+        "files": []
+    },
+    "require": {
+        "php": ">=8.0.0",
+        "ext-curl": "*"
+    },
+    "minimum-stability": "dev"
+}
